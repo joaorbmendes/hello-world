@@ -1,0 +1,103 @@
+/* geral 
+  color: #999999;  Light Grey
+  color: #42dca3;  Green
+  color: #555555   Dark Grey
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: 0;
+}
+body {
+font-family: 'Open Sans', sans-serif;
+}
+nav {
+font-family: 'Merriweather', serif;  
+}
+h1 {
+ font-family: 'Great Vibes', serif;   
+}
+
+a {
+     color: white;
+    text-decoration: none;
+      
+}
+a:hover {
+     color: #42dca3;
+    text-decoration: none;
+}
+
+p {
+    line-height: 28px;
+}
+h2 {
+    font-size: 35px;
+    margin: 10px 0 20px 0;
+}
+h3 {
+    font-size: 18px;
+     margin: 30px 0 10px 0;
+}
+.cinza_claro {
+    color: #999;
+}
+/* 
+-----------------------------------------
+Header
+-----------------------------------------
+*/
+
+#banner1, #banner2, #banner3, #banner4 {
+    background-image: url("../images/banner1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position:bottom;
+    padding-top: 125px;
+    padding-bottom: 125px;
+    padding-left: 35px;
+    color: white;
+}
+
+
+
+/* 
+-----------------------------------------
+Main
+-----------------------------------------
+*/
+.content {
+    
+    max-width: 760px;
+    margin: auto;
+    padding: 50px 30px 50px 30px;
+}
+
+
+
+
+/* 
+-----------------------------------------
+Footer
+-----------------------------------------
+*/
+
+footer {
+  background-image: url("../images/footer.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position:top;
+    padding: 50px;
+}
+footer a {
+
+    color: #999999;
+    font-size: 13px;
+    margin: auto;
+    text-decoration: none;
+    position: relative;
+    margin: 0px;
+}
